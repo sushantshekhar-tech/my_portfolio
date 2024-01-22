@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: weather,
-      demo: "https://main--zippy-beijinho-1dbc7d.netlify.app",
+      demo: "https://weather-app1203.netlify.app",
       code: "https://github.com/sushantshekhar-tech/Weather_App_Reactjs",
     },
     {
