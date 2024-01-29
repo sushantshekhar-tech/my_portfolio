@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
         <div className='bg-none    text-black flex justify-center item-center md:hidden' >
             <p className='font-bold py-4 '>Designed and developed by Sushant Shekhar . </p>
-            <p className='py-3'>Portfoliio @copyright 2024</p>
+            <p className='py-3'>Portfoliio @copyright 2024.</p>
         </div>
 
         </div>
