@@ -5,6 +5,7 @@ import creativity from "../assets/portfolio/creativity.jpg";
 import netflix from "../assets/portfolio/netflix.jpg";
 import todo from "../assets/portfolio/todo.jpg";
 import weather from "../assets/portfolio/weather.jpg";
+import quizapp from "../assets/portfolio/quizapp.jpg"
 
 const Portfolio = () => {
   const myPortfolio = [
@@ -38,11 +39,12 @@ const Portfolio = () => {
       demo: "https://sushantshekhar-tech.github.io/RVS_COLLEGE-OF-ENGINEERING_-_TECHNOLOGY./",
       code: "https://github.com/sushantshekhar-tech/RVS_COLLEGE-OF-ENGINEERING_-_TECHNOLOGY.",
     },
+    
     {
       id: 6,
-      src: todo,
-      demo: "https://sushantshekhar-tech.github.io/to-do-list/",
-      code: "https://github.com/sushantshekhar-tech/to-do-list",
+      src: quizapp,
+      demo: "https://react-quiz-app1203.netlify.app",
+      code: "https://github.com/sushantshekhar-tech/React-Quiz-App",
     },
   ];
 
@@ -52,7 +54,7 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 mt-[30rem] md:mt-0">
           <p
             className="text-4xl font-bold
                 inline border-b-4 border-gray-500"

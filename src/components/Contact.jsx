@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div name="Contact" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
-            <div className='pb-8'>
+            <div className='pb-8 mt-[110px] md:mt-0'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
                 <p className='py-6'>Submit the Form below to get in touch with me</p>
             </div>
@@ -19,14 +19,18 @@ const Contact = () => {
 
                 </form>
             </div>
-        </div>
-
-        <div>
-        <div className='bg-black w-full text-white flex justify-center item-center' >
-            <p className='font-bold my-auto'>Designed and developed by Sushant Shekhar . </p>
+            <div className='bg-gray w-full hidden md:flex   text-white justify-center item-center' >
+            <p className='font-bold '>Designed and developed by Sushant Shekhar . </p>
             <p>Portfoliio @copyright 2024</p>
         </div>
-    </div>
+        <div className='bg-none    text-black flex justify-center item-center md:hidden' >
+            <p className='font-bold py-4 '>Designed and developed by Sushant Shekhar . </p>
+            <p className='py-3'>Portfoliio @copyright 2024</p>
+        </div>
+
+        </div>
+      
+       
     </div>
   )
 }

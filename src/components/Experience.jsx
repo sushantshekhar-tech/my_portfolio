@@ -91,7 +91,7 @@ const tech =[
           <p className="py-6">These are the technologies i've worked with</p>
         </div>
 
-        <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid sm:grid-cols-2 md:grid-cols-4 gap-6 text-center py-8 px-12 sm:px-0">
 
 
 {tech.map(({id,src,title,style})=>(
