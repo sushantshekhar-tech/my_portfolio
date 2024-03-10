@@ -3,36 +3,37 @@ import calculator from "../assets/portfolio/calculator.jpg";
 import college from "../assets/portfolio/college.jpg";
 import creativity from "../assets/portfolio/creativity.jpg";
 import netflix from "../assets/portfolio/netflix.jpg";
-import todo from "../assets/portfolio/todo.jpg";
 import weather from "../assets/portfolio/weather.jpg";
 import quizapp from "../assets/portfolio/quizapp.jpg"
+import youtube from "../assets/portfolio/youtube.jpg"
 
 const Portfolio = () => {
   const myPortfolio = [
     {
       id: 1,
+      src: youtube,
+      demo: "https://youtube-clone1203.netlify.app",
+      code: "https://github.com/sushantshekhar-tech/Youtube_clone_React",
+    },
+    {
+      id: 2,
       src: netflix,
       demo: "https://netflixclone12-b4da8.web.app",
       code: "https://github.com/sushantshekhar-tech/Netflix_clone_Reactjs",
     },
     {
-      id: 2,
+      id: 3,
       src: weather,
       demo: "https://weather-app1203.netlify.app",
       code: "https://github.com/sushantshekhar-tech/Weather_App_Reactjs",
     },
     {
-      id: 3,
+      id: 4,
       src: creativity,
       demo: "https://sushantshekhar-tech.github.io/Creativity_unleashed.github.io/",
       code: "https://github.com/sushantshekhar-tech/Creativity_unleashed.github.io",
     },
-    {
-      id: 4,
-      src: calculator,
-      demo: "",
-      code: "https://github.com/sushantshekhar-tech/Calculator_React",
-    },
+   
     {
       id: 5,
       src: college,
@@ -46,6 +47,7 @@ const Portfolio = () => {
       demo: "https://react-quiz-app1203.netlify.app",
       code: "https://github.com/sushantshekhar-tech/React-Quiz-App",
     },
+    
   ];
 
   return (
