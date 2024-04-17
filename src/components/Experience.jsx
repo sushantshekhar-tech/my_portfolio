@@ -10,6 +10,8 @@ import photoshop from "../assets/photoshop.png";
 import react from "../assets/react.png";
 import tailswind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.png";
+import php  from "../assets/php.png"
+import sql  from "../assets/mysql.png"
 
 const Experience = () => {
 
@@ -79,6 +81,18 @@ const tech =[
         src:github,
         title :"GitHub",
         style:"shadow-gray-500"
+    },
+    {
+        id:12,
+        src:php,
+        title :"PHP",
+        style:"shadow-red-500"
+    },
+    {
+        id:13,
+        src:sql,
+        title :"MY SQL",
+        style:"shadow-blue-500"
     },
 ]
 
