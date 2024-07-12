@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from '../assets/heroImage.jpg'
+import heroImage from '../assets/heroImage.png'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
@@ -10,7 +10,7 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
             <h2 className='text-4xl sm:text-7xl py-10 font-bold text-white  '>I'm a Full Stack Developer | Graphics Designer</h2>
             <p className='text-gray-500 py-4 max-width-md'>A highly motivated and keen learner, with an optimistic mindset. Deals with problems practically and strategically. Looking for opportunities with a constant path to evolve and contribute to the organisation's growth in the process.
-                Currently I love to work on web  application using technologies like React , Bootstrap , Tailswind , HTML5 , CSS and javaScript . 
+                Currently I love to work on web  application using technologies like MERN,PHP , MySql, Bootstrap , Tailswind , HTML5 , CSS and javaScript . 
                 I love to make UI/UX designs , logo and vector potrait using Adobe PhotoShop and Adobe Illustrator
 
 
