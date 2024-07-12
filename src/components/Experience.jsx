@@ -12,6 +12,8 @@ import tailswind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.png";
 import php  from "../assets/php.png"
 import sql  from "../assets/mysql.png"
+import mongo from "../assets/mongo.png"
+import node from "../assets/node.png"
 
 const Experience = () => {
 
@@ -94,6 +96,18 @@ const tech =[
         title :"MY SQL",
         style:"shadow-blue-500"
     },
+    {
+        id:14,
+        src:node,
+        title :"Node Js",
+        style:"shadow-blue-500"
+    },
+    {
+        id:15,
+        src:mongo,
+        title :"Mongo Database",
+        style:"shadow-blue-500"
+    },
 ]
 
 
@@ -116,7 +130,7 @@ const tech =[
 </div>
 ))}
 
-         
+      
 
 
         </div>
